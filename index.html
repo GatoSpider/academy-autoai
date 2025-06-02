@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empezando en la IA | Curso para Principiantes</title>
+    <meta name="description" content="Curso online para principiantes: Da tu primer paso en Inteligencia Artificial. Sin tecnicismos, 100% práctico, acceso de por vida y certificado. ¡Inscríbete ahora!">
+    <meta name="keywords" content="curso IA, inteligencia artificial, principiantes, aprender IA, curso online IA, empezar IA, inteligencia artificial desde cero">
+    <meta property="og:title" content="Empezando en la IA | Curso para Principiantes">
+    <meta property="og:description" content="Tu primer paso en el mundo de la Inteligencia Artificial, explicado desde cero. Sin tecnicismos, práctico y con comunidad de apoyo.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gatospider.github.io/academy-autoai.github.io/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4712/4712035.png">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #fbbf24;
+            --dark: #18181b;
+            --light: #f3f4f6;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #18181b 0%, #23272f 100%);
+        }
+        .gold {
+            color: var(--gold);
+        }
+        .bg-gold {
+            background-color: var(--gold);
+        }
+        .card-hover {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 32px 0 rgba(251,191,36,0.15);
+        }
+        .gold-gradient {
+            background: linear-gradient(90deg, #fbbf24 0%, #ffe082 100%);
+            color: #18181b;
+        }
+    </style>
+</head>
+<body class="bg-[#18181b] text-white">
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-[#18181b] bg-opacity-95 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="text-2xl font-bold tracking-tight">Academy<span class="gold">AutoAI</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="hover:text-[var(--gold)] transition-colors">Inicio</a>
+                <a href="#beneficios" class="hover:text-[var(--gold)] transition-colors">Beneficios</a>
+                <a href="#modulos" class="hover:text-[var(--gold)] transition-colors">Módulos</a>
+                <a href="#testimonios" class="hover:text-[var(--gold)] transition-colors">Testimonios</a>
+                <a href="#contacto" class="hover:text-[var(--gold)] transition-colors">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="gradient-bg min-h-screen flex items-center pt-24 pb-12">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    Empezando en la <span class="gold">IA</span>
+                </h1>
+                <p class="text-xl mb-8 text-gray-300">
+                    Tu primer paso en el mundo de la Inteligencia Artificial, explicado desde cero. Sin tecnicismos, práctico y con comunidad de apoyo.
+                </p>
+                <a href="#contacto" class="inline-block bg-gold text-[#18181b] font-bold py-4 px-10 rounded-full text-lg shadow-lg hover:scale-105 transition-transform">
+                    ¡Quiero aprender!
+                </a>
+            </div>
+            <div class="hidden md:block" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="Inteligencia Artificial" class="rounded-xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="py-20 bg-[#23272f]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-14 gold" data-aos="fade-up">¿Por qué elegir este curso?</h2>
+            <div class="grid md:grid-cols-5 gap-8">
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-4xl gold mb-3">🧑‍💻</div>
+                    <h3 class="text-lg font-semibold mb-2">Sin tecnicismos</h3>
+                    <p class="text-gray-400">Explicaciones sencillas, sin lenguaje complicado.</p>
+                </div>
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-4xl gold mb-3">⚡</div>
+                    <h3 class="text-lg font-semibold mb-2">100% práctico</h3>
+                    <p class="text-gray-400">Aprende haciendo, con ejemplos y ejercicios reales.</p>
+                </div>
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-4xl gold mb-3">🤝</div>
+                    <h3 class="text-lg font-semibold mb-2">Comunidad de apoyo</h3>
+                    <p class="text-gray-400">Acompañamiento y soporte en todo momento.</p>
+                </div>
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover text-center" data-aos="fade-up" data-aos-delay="400">
+                    <div class="text-4xl gold mb-3">🔒</div>
+                    <h3 class="text-lg font-semibold mb-2">Acceso de por vida</h3>
+                    <p class="text-gray-400">Revisa el contenido cuando quieras, sin límites.</p>
+                </div>
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover text-center" data-aos="fade-up" data-aos-delay="500">
+                    <div class="text-4xl gold mb-3">🎓</div>
+                    <h3 class="text-lg font-semibold mb-2">Certificado</h3>
+                    <p class="text-gray-400">Obtén un certificado al finalizar el curso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Módulos Section -->
+    <section id="modulos" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-14 gold" data-aos="fade-up">¿Qué aprenderás?</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="bg-[#23272f] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-3 gold">Fundamentos de IA</h3>
+                    <p class="text-gray-300">¿Qué es la IA? Historia, conceptos básicos y aplicaciones actuales.</p>
+                </div>
+                <div class="bg-[#23272f] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-3 gold">Aplicaciones cotidianas</h3>
+                    <p class="text-gray-300">Cómo la IA está presente en tu día a día y cómo aprovecharla.</p>
+                </div>
+                <div class="bg-[#23272f] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold mb-3 gold">Herramientas básicas</h3>
+                    <p class="text-gray-300">Primeros pasos con herramientas de IA accesibles para todos.</p>
+                </div>
+                <div class="bg-[#23272f] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-xl font-semibold mb-3 gold">Tus primeros proyectos</h3>
+                    <p class="text-gray-300">Crea y experimenta con proyectos sencillos de IA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="py-20 bg-[#23272f]">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-14 gold" data-aos="fade-up">Testimonios</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonio 1" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-bold gold">Carlos M.</div>
+                            <div class="text-xs text-gray-400">Emprendedor</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">“Nunca pensé que podría entender la IA. El curso es claro, práctico y el soporte es excelente.”</p>
+                </div>
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Testimonio 2" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-bold gold">María G.</div>
+                            <div class="text-xs text-gray-400">Estudiante</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">“Ideal para quienes no sabemos nada de tecnología. Ahora uso IA todos los días.”</p>
+                </div>
+                <div class="bg-[#18181b] p-6 rounded-xl card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Testimonio 3" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-bold gold">Javier P.</div>
+                            <div class="text-xs text-gray-400">Docente</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">“El mejor curso para principiantes. Lo recomiendo a todos mis colegas.”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 gold-gradient text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">¿Listo para dar tu primer paso en la IA?</h2>
+        <p class="mb-8 text-lg">Inscríbete hoy y accede de por vida al curso, comunidad y soporte.</p>
+        <a href="#contacto" class="inline-block bg-[#18181b] text-[var(--gold)] font-bold py-4 px-10 rounded-full text-lg shadow-lg hover:scale-105 transition-transform border-2 border-[var(--gold)]">
+            ¡Inscribirme ahora!
+        </a>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-20 bg-[#23272f]">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <h2 class="text-4xl font-bold text-center mb-10 gold" data-aos="fade-up">¿Tienes preguntas?</h2>
+            <form action="https://formspree.io/f/mnqewqzv" method="POST" class="space-y-6" data-aos="fade-up">
+                <div>
+                    <label class="block mb-2 font-semibold">Nombre</label>
+                    <input type="text" name="nombre" required class="w-full p-3 rounded-lg bg-[#18181b] border border-gray-600 focus:border-[var(--gold)] focus:ring-1 focus:ring-[var(--gold)] transition-colors" placeholder="Tu nombre">
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold">Correo electrónico</label>
+                    <input type="email" name="email" required class="w-full p-3 rounded-lg bg-[#18181b] border border-gray-600 focus:border-[var(--gold)] focus:ring-1 focus:ring-[var(--gold)] transition-colors" placeholder="tu@email.com">
+                </div>
+                <div>
+                    <label class="block mb-2 font-semibold">Mensaje</label>
+                    <textarea name="mensaje" rows="4" required class="w-full p-3 rounded-lg bg-[#18181b] border border-gray-600 focus:border-[var(--gold)] focus:ring-1 focus:ring-[var(--gold)] transition-colors" placeholder="¿En qué podemos ayudarte?"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gold text-[#18181b] font-bold py-3 px-8 rounded-full text-lg transition-colors hover:scale-105">
+                    Enviar mensaje
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 bg-[#18181b] text-center text-gray-400">
+        <div class="mb-4">
+            <a href="#" class="text-2xl font-bold gold">AcademyAutoAI</a>
+        </div>
+        <div class="mb-4 flex justify-center space-x-6">
+            <a href="#" class="hover:text-[var(--gold)] transition-colors">Instagram</a>
+            <a href="#" class="hover:text-[var(--gold)] transition-colors">LinkedIn</a>
+            <a href="#" class="hover:text-[var(--gold)] transition-colors">X (Twitter)</a>
+        </div>
+        <div class="text-sm">&copy; 2024 AcademyAutoAI. Todos los derechos reservados.</div>
+    </footer>
+
+    <!-- AOS Init -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html> 
